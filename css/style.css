@@ -1,6 +1,7 @@
 body{
 	font-family: 	'Roboto', sans-serif;
 	font-size: 		20px;
+	line-height: 	26px;
 }
 
 #bar{
@@ -15,6 +16,10 @@ nav a{
 	color:				black;
 	padding: 			3px 20px 3px 20px;
 	float:				right;
+}
+
+.active{
+	text-decoration: underline;
 }
 
 a:hover{
@@ -47,7 +52,6 @@ h2{
 }
 
 p{
-	line-height: 	26px;
 	margin-bottom: 	40px;
 }
 
